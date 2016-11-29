@@ -7,15 +7,26 @@
         width: 100%;
       }
 
+      .container{
+        background-color: #90CAF9;
+        border-radius: 10px;
+      }
 
       html, body {
         height: 100%;
+        max-height: 500px;
         margin: 0;
         padding: 0;
+        background-color: #E3F2FD;
       }
       #map {
         height: 80%;
-        width: 90%;
+        width: 100%;
+        margin-top: 10px;
+
+        border: 0.2em solid;
+     
+
         
       }
       #right-panel {
@@ -28,10 +39,11 @@
         padding-top: 0;
       }
       #directions-panel {
+
+        padding-top: 20px;
         margin-top: 10px;
-        background-color: #FFEE77;
-        padding: 10px;
-      }
+        background-color: #BBDEFB;
+              }
 
 
       #autocomplete {
