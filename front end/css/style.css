@@ -1,0 +1,54 @@
+
+      #info-panel select, #right-panel input {
+        font-size: 15px;
+      }
+
+      #info-panel select {
+        width: 100%;
+      }
+
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 80%;
+        width: 90%;
+        
+      }
+      #right-panel {
+        margin: 20px;
+        border-width: 2px;
+        
+        height: 400px;
+        float: left;
+        text-align: left;
+        padding-top: 0;
+      }
+      #directions-panel {
+        margin-top: 10px;
+        background-color: #FFEE77;
+        padding: 10px;
+      }
+
+
+      #autocomplete {
+      
+        top: 0px;
+        left: 0px;
+        width: 99%;
+      }
+
+
+      #end {
+        
+        top: 0px;
+        left: 0px;
+        width: 99%;
+      }
+      .locationField {
+        height: 20px;
+        margin-bottom: 2px;
+      }
